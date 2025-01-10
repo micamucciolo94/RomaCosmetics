@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Preguntas Frecuentes</title>
+</head>
+<body>
+    <div class="faq-section">
+        <h1>Preguntas Frecuentes</h1>
+        <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(1)">1. ¿Cuáles son los métodos de pago aceptados?</div>
+        <div class="faq-answer" id="answer1">
+        Aceptamos tarjetas de crédito y débito (Visa, MasterCard, American Express), PayPal y transferencias bancarias.
+        </div>
+        </div>
+    
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(2)">2. ¿Cómo puedo realizar un pedido?</div>
+            <div class="faq-answer" id="answer2">
+                Para realizar un pedido, simplemente selecciona los productos que deseas, añádelos al carrito y sigue los pasos para completar la compra. Te guiaremos a través del proceso de pago y envío.
+            </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(3)">3. ¿Cuánto tiempo tarda en llegar mi pedido?</div>
+                <div class="faq-answer" id="answer3">
+                    El tiempo de entrega depende de tu ubicación y del método de envío seleccionado. Normalmente, los pedidos dentro de la ciudad tardan entre 2 y 5 días hábiles, mientras que los envíos internacionales pueden tardar entre 7 y 14 días hábiles.
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(4)">4. ¿Puedo devolver un producto si no estoy satisfecho?</div>
+                <div class="faq-answer" id="answer4">
+                    Sí, aceptamos devoluciones dentro de los 30 días posteriores a la compra. El producto debe estar en su embalaje original y sin usar. Por favor, contáctanos para obtener instrucciones sobre cómo proceder con la devolución.
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(5)">5. ¿Los productos son cruelty-free y veganos?</div>
+                <div class="faq-answer" id="answer5">
+                    Sí, todos nuestros productos son cruelty-free y muchos de ellos también son veganos. Puedes encontrar esta información en la descripción de cada producto.
+                </div>
+            </div>
+    
+            <div class="faq-item">
+                <div class="faq-question" onclick="toggleAnswer(6)">6. ¿Ofrecen muestras gratuitas?</div>
+                <div class="faq-answer" id="answer6">
+                    Sí, ofrecemos muestras gratuitas con cada pedido. También puedes solicitar muestras específicas en la sección de comentarios al realizar tu compra.
+                </div>
+            </div>
+    
+        </div>
+    
+        <script>
+            function toggleAnswer(id) {
+                var answer = document.getElementById('answer' + id);
+                answer.classList.toggle('active');
+            }
+        </script>
+        </body>
+</html>       
