@@ -53,7 +53,10 @@ section {
 h1 {
     text-align: center;
     margin-bottom: 20px;
-}
+    background-color: greenyellow;
+    color: pink;
+    padding: 10px 0;}
+
 
 .productos {
     display: flex;
